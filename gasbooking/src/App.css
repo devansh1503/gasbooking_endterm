@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(36, 36, 36);
+  overflow-x: hidden;
+}
+.auth-container{
+  border: 2px solid rgb(32, 32, 32);
+  background-color: rgba(0, 0, 0, 0.352);
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 20px;
+}
+.auth-container button{
+  border: none;
+  background-color: tomato;
+  padding: 5px;
+  margin: 15px;
+  font-size: 25px;
+}
+.auth-container input{
+  background:none;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 20vw;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: tomato;
+}
+.home{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.home *{
+  margin: 12px;
+}
+.info{
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  background-color: rgb(61, 61, 61);
+  border-radius: 17px;
+  padding: 15px;
+}
+.userOpt{
+  background-color: black;
+  color: tomato;
+  width: fit-content;
+  max-width: 16%;
+  padding: 20px;
+  box-shadow: 10px 10px 10px black;
+  position: fixed;
+  top: 10%;
+  height: 90vh;
+  left: 0%;
+}
+.userOpt ul{
+  list-style-type: none;
+}
+.userOpt ul li{
+  border-bottom: 2px solid tomato;
+  margin-top: 10px;
+}
+.order-main-div{
+  padding: 20px;
+  background-color: rgb(57, 57, 57);
+  color: white;
+  font-size: 25px;
+  border-radius: 17px;
+  margin-bottom: 20px;
+}
+.order-main-div *{
+  display: flex;
+}
+.order-main-div h4{
+  color: tomato;
+}
+table{
+  width: 70%;
+  transform: translateX(10%);
+}
+th{
+  color: tomato;
+  border: 2px solid tomato;
+  font-size: 23px;
+  padding: 6px;
+  background-color: white;
+}
+tr{
+  background-color: tomato;
+}
+td{
+  font-size: 23px;
+  padding: 9px;
+}
+table button{
+  border: none;
+  background-color: rgb(255, 198, 93);
+  color: rgb(90, 90, 90);
+  font-size: 20px;
+  padding: 9px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.invData{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  transform: translateX(10%);
+}
+.userprofileicon:hover{
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.userdetail{
+  background-color: tomato;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
